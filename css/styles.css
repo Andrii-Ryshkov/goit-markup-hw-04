@@ -381,6 +381,7 @@ img {
 .over {
   position: absolute;
   top: 0;
+  left: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -454,8 +455,7 @@ img {
   display: flex;
   align-items: baseline;
 }
-.office-links {
-}
+
 .media {
   margin-bottom: 16px;
   font-weight: 500;
