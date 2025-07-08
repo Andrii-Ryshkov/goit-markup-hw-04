@@ -9,7 +9,11 @@ ul {
   padding: 0;
   margin: 0;
 }
-
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -366,6 +370,11 @@ img {
   row-gap: 48px;
 }
 .port-a {
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  background-color: white;
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -381,7 +390,6 @@ img {
 .over {
   position: absolute;
   top: 0;
-  left: 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
